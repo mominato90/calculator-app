@@ -13,6 +13,7 @@ int subtract(int a, int b)
 int main()
 {
     std::cout << "Place of Birth" << std::endl;
+    std::cout << "Nationality" << std::endl;
     
 
     std::cout << "Calculator App" << std::endl;
