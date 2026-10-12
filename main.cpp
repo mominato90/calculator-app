@@ -1,24 +1,12 @@
 #include <iostream>
+using namespace std;
 
-int add(int a, int b)
-{
-    return a + b;
-}
-
-int subtract(int a, int b)
-{
-    return a - b;
-}
-// Test comment to check if the code is working fine
 int main()
 {
-    std::cout << "Place of Birth" << std::endl;
-    std::cout << "Nationality" << std::endl;
-    std::cout << "Country: Morocco" << std::endl;
-
-    std::cout << "Calculator App" << std::endl;
-    std::cout << "2 + 3 = " << add(2, 3) << std::endl;
-    std::cout << "5 - 2 = " << subtract(5, 2) << std::endl;
+    cout << "Student: Simo" << endl;
+    cout << "Course: Git and GitHub" << endl;
+    cout << "Favorite Language: C++" << endl;
+    cout << "Mini Challenge Completed!" << endl;
 
     return 0;
 }
